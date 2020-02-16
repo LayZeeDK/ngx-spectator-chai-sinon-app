@@ -4,7 +4,11 @@
     "outDir": "./out-tsc/spec",
     "types": [
       "jasmine",
-      "node"
+      "node",
+      "chai",
+      "sinon",
+      "sinon-chai",
+      "karma-chai-sinon"
     ]
   },
   "files": [

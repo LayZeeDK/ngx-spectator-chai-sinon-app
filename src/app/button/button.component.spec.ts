@@ -1,9 +1,6 @@
 import { createComponentFactory, Spectator } from '@ngneat/spectator';
-import * as chai from 'chai';
 
 import { ButtonComponent } from './button.component';
-
-const expect = chai.expect;
 
 describe('ButtonComponent', () => {
   let spectator: Spectator<ButtonComponent>;

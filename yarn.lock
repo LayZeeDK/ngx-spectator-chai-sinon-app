@@ -1059,7 +1059,7 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jasmine@*", "@types/jasmine@~3.5.0":
+"@types/jasmine@*":
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.5.4.tgz#8f9b7b03cc6204d2048b08128dac1f341bfe0591"
   integrity sha512-Uc/obv/lRh1t6RMOV6wkiAfYSZ0AOSTJqVl0Th8bHFcDhw4rQ0L60sxVnmOJj+RXbVboAE1Fd/mBclQWARRAsQ==
@@ -1070,6 +1070,14 @@
   integrity sha512-d9p31r7Nxk0ZH0U39PTH0hiDlJ+qNVGjlt1ucOoTUptxb2v+Y5VMnsxfwN+i3hK4yQnqBi3FMmoMFcd1JHDxdg==
   dependencies:
     "@types/jasmine" "*"
+
+"@types/karma-chai-sinon@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@types/karma-chai-sinon/-/karma-chai-sinon-0.1.13.tgz#b4ea050aabacf2e10f46b7c4bc49e14ce08e38de"
+  integrity sha512-YfDWT1j+5o/efqc3jdsbAgfNkQAAuEgtNOhrd3CehFupZQQTz7Vnpe+DEW/paliktMAqQU+DoaFRfevfl4zFSQ==
+  dependencies:
+    "@types/chai" "*"
+    "@types/sinon" "*"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -5052,6 +5060,11 @@ karma-jasmine@~2.0.1:
   integrity sha512-iuC0hmr9b+SNn1DaUD2QEYtUxkS1J+bSJSn7ejdEexs7P8EYvA1CWkEdrDQ+8jVH3AgWlCNwjYsT1chjcNW9lA==
   dependencies:
     jasmine-core "^3.3"
+
+karma-sinon-chai@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/karma-sinon-chai/-/karma-sinon-chai-2.0.2.tgz#e28c109b989973abafc28a7c9f09ef24a05e07c2"
+  integrity sha512-SDgh6V0CUd+7ruL1d3yG6lFzmJNGRNQuEuCYXLaorruNP9nwQfA7hpsp4clx4CbOo5Gsajh3qUOT7CrVStUKMw==
 
 karma-source-map-support@1.4.0:
   version "1.4.0"
